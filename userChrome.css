@@ -1,29 +1,5 @@
 /*  This is NOT an original creation. Its been copied from multiple sources from https://www.reddit.com/r/FirefoxCSS. */
 
-#main-window[titlepreface*="🦊 "] .tabbrowser-tab {
-  visibility: collapse !important;
-}
-
-#main-window[titlepreface*="🦊 "] .titlebar-button {
-  height: 40px !important;
-}
-
-#main-window[titlepreface*="🦊 "] #nav-bar {
-  margin-top: -40px;
-  margin-right: 137px;
-  box-shadow: none !important;
-}
-#main-window[titlepreface*="🦊 "] #titlebar-spacer {
-  background-color: var(--chrome-secondary-background-color);
-}
-
-#main-window[titlepreface*="🦊"] #titlebar-buttonbox-container {
-  background-color: var(--chrome-secondary-background-color);
-}
-
-#main-window[titlepreface*="🦊 "] .titlebar-color {
-  background-color: var(--toolbar-bgcolor);
-}
 
 #sidebar-box[sidebarcommand="_3c078156-979c-498b-8990-85f7987dd929_-sidebar-action"] #sidebar-header {
   visibility: collapse;
@@ -31,8 +7,8 @@
 
 
 #sidebar-box[sidebarcommand="_3c078156-979c-498b-8990-85f7987dd929_-sidebar-action"] {
-  --uc-sidebar-width: 36px !important;
-  --uc-sidebar-hover-width: 200px;
+  --uc-sidebar-width: 35px !important;
+  --uc-sidebar-hover-width: 300px;
   --uc-autohide-sidebar-delay: 150ms;
   position: relative;
   min-width: var(--uc-sidebar-width) !important;
@@ -81,34 +57,20 @@
   visibility: collapse;
 }
 #nav-bar {
-  margin-top: -39px;
-  margin-right: 137px;
+  margin-top: -40px;
+  margin-right: 160px;
 }
 .titlebar-button {
   height: 40px;
 }
 
-
-
 #navigator-toolbox {
     margin-top: -40px;
 	
-    transition: margin-top 0.2s;
+    transition: margin-top 0.02s;
 }
 
 #navigator-toolbox:hover, #navigator-toolbox:focus-within {
     margin-top: -10px;
-    transition: margin-top 0.2s;
+    transition: margin-top 0.02s;
 }  
-
-
-
-
-
-
-
-
-
-
-
-
